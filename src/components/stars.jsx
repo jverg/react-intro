@@ -28,7 +28,7 @@ class Stars extends Component {
           width="1.5em"
           height="1.5em"
           viewBox="0 0 16 16"
-          class="bi bi-star-fill"
+          className="bi bi-star-fill"
           fill="black"
           xmlns="http://www.w3.org/2000/svg"
         >
