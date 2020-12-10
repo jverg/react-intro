@@ -18,9 +18,9 @@ const NavBar = ({ totalCounter }) => {
           id="dropdown-basic"
         >
           <span className="mystyle">
-            <h2 className="total">
+            <h5 className="total">
               <FormatTotalCount totalCounter={totalCounter} />
-            </h2>
+            </h5>
             <svg
               width="2rem"
               height="2rem"
@@ -38,9 +38,9 @@ const NavBar = ({ totalCounter }) => {
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">Το Προφιλ Μου</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">Καλάθι Αγορών</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Αποσύνδεση</Dropdown.Item>
+          <Dropdown.Item href="/">Το Προφιλ Μου</Dropdown.Item>
+          <Dropdown.Item href="/">Καλάθι Αγορών</Dropdown.Item>
+          <Dropdown.Item href="/">Αποσύνδεση</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
     </nav>
@@ -49,11 +49,7 @@ const NavBar = ({ totalCounter }) => {
 
 const FormatTotalCount = ({ totalCounter }) => {
   const value = totalCounter;
-  return value === 0 ? (
-    <h5>Το καλάθι σας είναι άδειο</h5>
-  ) : (
-    <h5>{value} στο καλάθι</h5>
-  );
+  return value === 0 ? "Το καλάθι σας είναι άδειο" : value + " στο καλάθι";
 };
 
 export default NavBar;
