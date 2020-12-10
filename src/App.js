@@ -9,7 +9,10 @@ class App extends Component {
       { id: 1, name: "Λαμπάκια", value: 0 },
       { id: 2, name: "Χριστουγεννιάτικο δέντρο", value: 0 },
       { id: 3, name: "Φάτνη", value: 0 },
-      { id: 4, name: "Διακοσμητικά", value: 0 }
+      { id: 4, name: "Σοκολατάκια", value: 0 },
+      { id: 5, name: "Άγιος Βασίλης", value: 0 },
+      { id: 6, name: "Μελομακάρονα", value: 0 },
+      { id: 7, name: "Κουραμπιέδες", value: 0 }
     ]
   };
 

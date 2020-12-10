@@ -10,8 +10,10 @@
   "dependencies": {
     "bootstrap": "4.5.3",
     "react": "17.0.0",
+    "react-bootstrap": "1.4.0",
     "react-dom": "17.0.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "saas": "1.0.0"
   },
   "devDependencies": {
     "typescript": "3.8.3"

@@ -1,0 +1,29 @@
+.dropdown-toggle:after {
+  display: none !important;
+}
+.cardstyle {
+  border-style: solid;
+  display: flex;
+  align-items: center;
+}
+.badge {
+  display: flex;
+}
+.title {
+  margin-right: 2rem;
+}
+.mystyle {
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.total {
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+.card-item {
+  margin: 10px;
+  padding: 10px;
+}
