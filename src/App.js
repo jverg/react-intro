@@ -31,11 +31,9 @@ function App() {
 
   const starUpdate = (counter, star) => {
     const index = counters.indexOf(counter);
-    if (counters[index].stars === star) {
-      counters[index].stars = 0;
-    } else {
-      counters[index].stars = star;
-    }
+    counters[index].stars === star
+      ? (counters[index].stars = 0)
+      : (counters[index].stars = star);
     setCounters(counters);
     setStars([1, 2, 3, 4, 5]);
   };
