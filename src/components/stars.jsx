@@ -3,11 +3,10 @@ import "../styles/style.css";
 
 function Stars(props) {
   let starColor;
-  if (props.star > props.counter.stars) {
-    starColor = "white";
-  } else {
-    starColor = "orange";
-  }
+  props.star > props.counter.stars
+    ? (starColor = "white")
+    : (starColor = "orange");
+
   return (
     <button
       className="background-star"
